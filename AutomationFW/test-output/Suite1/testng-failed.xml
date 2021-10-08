@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite1]">
+  <test parallel="none" name="package(failed)">
+    <classes>
+      <class name="com.hrms.testscripts.TC_Excel_WD_TestNG">
+        <methods>
+          <include name="teardown"/>
+          <include name="Startup"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC_Excel_WD_TestNG -->
+      <class name="com.hrms.testscripts.WebDriverTestng">
+        <methods>
+          <include name="teardown"/>
+          <include name="Startup"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.WebDriverTestng -->
+      <class name="com.hrms.testscripts.TC001">
+        <methods>
+          <include name="tc001"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC001 -->
+    </classes>
+  </test> <!-- package(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
